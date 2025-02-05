@@ -72,8 +72,8 @@ export interface SideNavProps
   onSideNavBlur?: () => void;
   enterDelayMs?: number;
   inert?: boolean;
-  isCollapsible: boolean;
-  hideOverlay: boolean;
+  isCollapsible?: boolean;
+  hideOverlay?: boolean;
   navType: SIDE_NAV_TYPE;
 }
 
